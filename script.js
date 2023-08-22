@@ -71,7 +71,6 @@ const currentYear = new Date().getFullYear()
 			console.log('Name change:', holidays[christmas].name != copied.name || copied.name)
 			console.log('Date change:', holidays[christmas].date != copied.date || copied.date)
 			
-			console.log(new Date(holidays[0].date).getTime())
 			
 			const firstHolidayTimestamp = Math.min(
 				new Date(holidays[0].date).getTime(),
